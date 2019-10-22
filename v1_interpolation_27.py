@@ -137,8 +137,7 @@ def interpolation_between_two_action27(file_name_1, file_name_2, file_path='./da
     plot.plot()
     return item_shape[0], item_shape[1]
 
-
+# test
 if __name__ == '__main__':
     files = ['S5_walking_1_xyz', 'S5_walking_2_xyz']
-    # files = ['S11_directions_1_xyz', 'S8_smoking_2_xyz']
     print(interpolation_between_two_action27(files[0], files[1], model="just_save"))
